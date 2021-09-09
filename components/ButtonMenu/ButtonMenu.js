@@ -1,10 +1,9 @@
 import React from "react";
 
-export const ButtonMenu = ({Icon, name, onOpenModal, className}) => {
+export const ButtonMenu = () => {
     return (
-        <div className={className} onClick={onOpenModal}>
-            <Icon iconName='docs'/>
-            <span>{name}</span>
+        <div >
+            <span>test</span>
         </div>
     )
 }
